@@ -3,7 +3,7 @@
  if($_POST)
   {
    // Correo al que queremos que llegue
-    $destinatario = "empresa@basculaszanella.com.ar";
+    $destinatario = "pelleranogiovanni@hotmail.com";
    // Asunto
    $asunto = "Email de prueba del Tutorial PHP 7";
    // Mensaje
@@ -11,6 +11,7 @@
          Nombre: ".$_POST['form-name']."<br>
           email: ".$_POST['form-email']."<br>
           Asunto: ".$_POST['form-subject']."<br>
+          Teléfono: ".$_POST['form-phone']."<br>
           Mensaje: ".$_POST['form-message']."<br><br>
 
           Saludos!";
