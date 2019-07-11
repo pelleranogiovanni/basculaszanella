@@ -16,13 +16,12 @@
 
           Saludos!";
     // Cabeceras
-    $email   = stripslashes(trim($_POST['form-email']));
     // Para enviar un correo HTML, debe establecerse la cabecera Content-type
      $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
      $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
      // Cabeceras adicionales
-      $cabeceras .= 'To: BASCULAS ZANELLA <basculaszanella@hotmail.com>' . "\r\n";
-      $cabeceras .= 'From: Destinatario Cliente' . "<$email>" . "\r\n";
+      $cabeceras .= 'To: TU NOMBRE <TU_CORREO_AQUI@gmail.com>' . "\r\n";
+      $cabeceras .= 'From: Tutorial PHP 7 <tutorial@tutorialphp.net>' . "\r\n";
    // Enviamos el email
 
 

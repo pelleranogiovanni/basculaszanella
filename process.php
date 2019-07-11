@@ -1,7 +1,7 @@
 <?php   
 // Configure your Subject Prefix and Recipient here
 $subjectPrefix = '[basculaszanella.com.ar]';
-$emailTo       = 'empresa@basculaszanella.com.ar';
+$emailTo       = 'consultas@basculaszanella.com.ar';
 $errors = array(); // array to hold validation errors
 $data   = array(); // array to pass back data
 if($_SERVER['REQUEST_METHOD'] === 'POST') {
